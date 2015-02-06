@@ -1,0 +1,4 @@
+From: Yann Hodique <hodiquey@vmware.com>
+Subject: [PATCH] t/feature/cloudinit-vmw
+
+vmware-flavored coreos-cloudinit
