@@ -1,4 +1,5 @@
 From: Yann Hodique <hodiquey@vmware.com>
-Subject: [PATCH] t/feature/fleet-vmw
+Subject: [PATCH] t/release/vmw
 
-use vmware-flavored fleet
+<patch description>
+
