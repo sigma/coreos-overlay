@@ -2,14 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=4
-CROS_WORKON_PROJECT="coreos/coreos-cloudinit"
+CROS_WORKON_PROJECT="sigma/coreos-cloudinit"
 CROS_WORKON_LOCALNAME="coreos-cloudinit"
 CROS_WORKON_REPO="git://github.com"
 
 if [[ "${PV}" == 9999 ]]; then
 	KEYWORDS="~amd64"
 else
-	CROS_WORKON_COMMIT="ae3676096cabaaa5a65c4976ba31983833fb09ee" # tag v1.2.1
+	CROS_WORKON_COMMIT="cd3bf34086a6de74965d58abbf1d179f0562c6c5" # tag v1.2.1-vmw
 	KEYWORDS="amd64"
 fi
 
