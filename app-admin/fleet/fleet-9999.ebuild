@@ -2,14 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=4
-CROS_WORKON_PROJECT="coreos/fleet"
+CROS_WORKON_PROJECT="sigma/fleet"
 CROS_WORKON_LOCALNAME="fleet"
 CROS_WORKON_REPO="git://github.com"
 
 if [[ "${PV}" == 9999 ]]; then
 	KEYWORDS="~amd64"
 else
-	CROS_WORKON_COMMIT="2d5c6bb0751ad3a50c0a219158439071a59e549f"  # tag v0.9.0
+	CROS_WORKON_COMMIT="64e11170cd6c859327ab106be7b7eae644e9cbeb"  # tag v0.9.0-vmw
 	KEYWORDS="amd64"
 fi
 
