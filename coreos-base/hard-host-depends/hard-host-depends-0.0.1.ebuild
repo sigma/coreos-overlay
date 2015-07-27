@@ -38,13 +38,13 @@ RDEPEND="${RDEPEND}
 	app-text/texi2html
 	coreos-base/cros-devutils[cros_host]
 	coreos-base/cros-testutils
-	coreos-base/vboot_reference
 	=dev-lang/python-2*
 	dev-python/setuptools
 	dev-lang/nasm
 	dev-lang/swig
 	dev-lang/yasm
 	dev-lang/go
+	dev-lang/go-bootstrap
 	dev-libs/dbus-glib
 	>=dev-libs/glib-2.26.1
 	dev-libs/libgcrypt

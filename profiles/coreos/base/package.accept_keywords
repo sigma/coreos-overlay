@@ -98,11 +98,6 @@ dev-util/checkbashisms
 ~app-emulation/xen-tools-4.4.1
 ~app-emulation/xen-pvgrub-4.4.1
 
-# Security update, Gentoo hasn't finished marking it stable yet.
-# https://www.openssl.org/news/secadv_20141015.txt
-# https://bugs.gentoo.org/show_bug.cgi?id=525468
-=dev-libs/openssl-1.0.1j
-
 # Fixes a few bugs but has not yet been marked stable upstream.
 =app-arch/lbzip2-2.5
 
@@ -115,3 +110,5 @@ dev-util/checkbashisms
 # fix for https://github.com/coreos/bugs/issues/324
 =net-misc/curl-7.41
 
+# link jq binary dynamically
+=app-misc/jq-1.4-r1

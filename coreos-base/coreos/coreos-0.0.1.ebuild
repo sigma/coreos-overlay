@@ -8,7 +8,7 @@ HOMEPAGE="http://coreos.com"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 arm x86"
+KEYWORDS="amd64 arm arm64 x86"
 IUSE="etcd_protocols_1 etcd_protocols_2"
 
 
@@ -104,8 +104,8 @@ RDEPEND="${RDEPEND}
 	app-arch/tar
 	app-arch/unzip
 	app-arch/zip
+	app-misc/jq
 	app-shells/bash
-	coreos-base/vboot_reference
 	coreos-base/update_engine
 	coreos-base/coreos-init
 	coreos-base/coreos-cloudinit
@@ -129,8 +129,10 @@ RDEPEND="${RDEPEND}
 	sys-apps/less
 	sys-apps/net-tools
 	sys-apps/pciutils
+	sys-apps/rng-tools
 	sys-apps/rootdev
 	sys-apps/sed
+	sys-apps/seismograph
 	sys-apps/shadow
 	sys-apps/systemd
 	sys-apps/usbutils
