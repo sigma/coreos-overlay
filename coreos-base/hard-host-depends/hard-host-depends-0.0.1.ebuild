@@ -53,16 +53,12 @@ RDEPEND="${RDEPEND}
 	dev-libs/protobuf
 	dev-python/cherrypy
 	dev-python/ctypesgen
-	dev-python/dbus-python
-	dev-python/imaging
 	dev-python/m2crypto
 	dev-python/mako
 	dev-python/netifaces
-	dev-python/pygobject
 	dev-python/pyinotify
 	dev-python/pyopenssl
 	dev-python/python-daemon
-	dev-python/pyudev
 	dev-python/pyusb
 	dev-python/setproctitle
 	dev-python/ws4py
@@ -77,13 +73,11 @@ RDEPEND="${RDEPEND}
 	>=dev-vcs/git-1.7.2
 	dev-vcs/mercurial
 	dev-vcs/subversion[-dso]
-	>=media-libs/freetype-2.2.1
 	net-misc/gsutil
 	sys-apps/usbutils
 	sys-apps/systemd
 	!sys-apps/nih-dbus-tool
 	=sys-devel/automake-1.10*
-	sys-fs/sshfs-fuse
 	sys-libs/libnih
 	sys-libs/nss-usrfiles
 	sys-power/iasl
@@ -121,7 +115,6 @@ RDEPEND="${RDEPEND}
 # Host dependencies that are needed to create and sign images
 # TODO:	sys-apps/mosys
 RDEPEND="${RDEPEND}
-	sys-fs/libfat
 	sys-fs/squashfs-tools
 	"
 

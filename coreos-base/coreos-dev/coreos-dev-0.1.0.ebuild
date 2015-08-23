@@ -22,8 +22,6 @@ RDEPEND="
 	coreos-base/coreos-experimental
 	coreos-base/gmerge
 	dev-lang/python
-	dev-python/dbus-python
-	dev-python/pygobject
 	dev-util/strace
 	dev-vcs/repo
 	net-analyzer/netperf
@@ -46,9 +44,7 @@ RDEPEND="
 	sys-apps/which
 	sys-devel/gcc
 	sys-devel/gdb
-	sys-fs/fuse
 	sys-fs/lvm2
-	sys-fs/sshfs-fuse
 	sys-process/ktop
 	sys-process/procps
 	sys-process/psmisc

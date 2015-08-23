@@ -9,7 +9,6 @@
 
 =dev-python/ws4py-0.2.4 ~amd64
 =dev-embedded/smdk-dltool-0.20-r3 ~amd64
-=sys-fs/libfat-0.3a ~amd64
 =dev-cpp/gflags-2.0 ~amd64
 =sys-devel/smatch-1.57-r1 ~amd64
 =dev-lang/closure-compiler-bin-20120305 ~amd64
@@ -25,11 +24,6 @@
 =net-misc/dhcp-4.2.2-r1 ~amd64
 =app-benchmarks/i7z-0.27-r1 ~amd64
 =dev-libs/opencryptoki-2.4.2 ~amd64
-
-# Replace the function.sh script in baselayout
-=sys-apps/efunctions-1 ~amd64 ~x86
-
-#=dev-libs/libxml2-2.9.0-r1 ~amd64
 
 # CRIU dependencies
 =dev-libs/protobuf-c-0.15 ~amd64
@@ -112,3 +106,6 @@ dev-util/checkbashisms
 
 # link jq binary dynamically
 =app-misc/jq-1.4-r1
+
+# https://bugs.gentoo.org/show_bug.cgi?id=548158
+=sys-apps/gentoo-functions-0.10
