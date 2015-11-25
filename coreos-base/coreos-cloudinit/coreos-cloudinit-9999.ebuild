@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-CROS_WORKON_PROJECT="coreos/coreos-cloudinit"
+CROS_WORKON_PROJECT="sigma/coreos-cloudinit"
 CROS_WORKON_LOCALNAME="coreos-cloudinit"
 CROS_WORKON_REPO="git://github.com"
 COREOS_GO_PACKAGE="github.com/coreos/coreos-cloudinit"
@@ -14,7 +14,7 @@ elif [[ "${PV}" == "1.5.1" ]]; then
 	CROS_WORKON_COMMIT="fac805dc11951d32fe68a77200988828fa1ce48d" # tag v1.5.1
 	KEYWORDS="amd64 arm64"
 else
-	CROS_WORKON_COMMIT="08eb9bae3c4deb470b63c24c659f7c8659eadb27" # tag v1.8.1
+	CROS_WORKON_COMMIT="ca38d8e353e2b28838273101a62088139cff5c33" # tag v1.8.1_p1
 	KEYWORDS="amd64"
 fi
 
